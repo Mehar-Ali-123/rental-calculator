@@ -1,0 +1,106 @@
+:root{
+  --primary-color: #0CBC8B;
+  --dark-color: #162937;
+  --text-dark: #222D39;
+  --blue-color: #0066FF;
+  --secondary-color: #E98862;
+  --light-color:lightcyan;
+}
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+.txt-secondary{
+  color: var(--secondary-color);
+}
+
+.form-btn{
+  border: none;
+  outline: none !important;
+  border: none;
+  width: 190px;
+  height: 130px;
+  border-radius: 10px;
+  box-shadow: 0px 19.5076px 70.9368px rgba(0, 0, 0, 0.07), 0px 8.14982px 29.6357px rgba(0, 0, 0, 0.0503198), 0px 4.35728px 15.8447px rgba(0, 0, 0, 0.0417275), 0px 2.44266px 8.88239px rgba(0, 0, 0, 0.035), 0px 1.29728px 4.71737px rgba(0, 0, 0, 0.0282725), 0px 0.539826px 1.963px rgba(0, 0, 0, 0.0196802);
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.form-btn:hover{
+  background: var(--light-color);
+}
+
+.btn-submit{
+  border-radius: 10px;
+  border: none;
+  background: var(--dark-color);
+  color: var(--secondary-color) !important;
+}
+.btn-next{
+  border-radius: 10px;
+  border: none;
+  background: var(--dark-color);
+  border: 2px solid var(--dark-color);
+  color: white!important;
+}
+.btn-back{
+  border-radius: 10px;
+  border: none;
+  background: none;
+  border: 2px solid var(--dark-color);
+  color: var(--dark-color) !important;
+}
+
+.btn-next:hover , .btn-back:hover{
+  background: none;
+  border: 2px solid var(--dark-color);
+  color: var(--dark-color) !important;
+}
+
+
+.input-div {
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0px 19.5076px 70.9368px rgba(0, 0, 0, 0.07), 0px 8.14982px 29.6357px rgba(0, 0, 0, 0.0503198), 0px 4.35728px 15.8447px rgba(0, 0, 0, 0.0417275), 0px 2.44266px 8.88239px rgba(0, 0, 0, 0.035), 0px 1.29728px 4.71737px rgba(0, 0, 0, 0.0282725), 0px 0.539826px 1.963px rgba(0, 0, 0, 0.0196802);
+}
+
+.input-div .p-inputtext{
+  width: 100%;
+  border-radius: 20px;
+  border: none !important;
+  padding: 18px;
+  background: none !important;
+}
+.input-div .p-inputtext:hover{
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.input-div .p-inputtext:focus{
+  outline: none;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.btn-outline-secondary {
+  background: transparent;
+  box-shadow: 0px 8.30752px 24.343px rgba(10, 63, 120, 0.165559);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color) !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.rectangle-bottom{
+  display: none !important;
+  top: 60%;
+  z-index: -1111;
+}
+.rectangle-img{
+  display: none !important;
+  top: 10%;
+  right: 0px;
+  z-index: -1111;
+}
